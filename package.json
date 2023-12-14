@@ -4,12 +4,15 @@
   "description": "Curso de asincronismo de javascript, Asincronismo de javascript desde una landing page",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "gh-pages": "gh-pages -d src"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.0"
   }
 }
